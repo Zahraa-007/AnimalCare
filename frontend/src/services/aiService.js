@@ -1,5 +1,5 @@
 const API_BASE_URL =
-  process.env.EXPO_PUBLIC_API_BASE_URL || "http://127.0.0.1:8080";
+  process.env.EXPO_PUBLIC_API_BASE_URL || "https://animalcare.fastapicloud.dev";
 
 export const getDogAssistantResponse = async (question, context = null) => {
   const trimmedQuestion = (question || "").trim();
