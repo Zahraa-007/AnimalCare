@@ -71,10 +71,6 @@ yarn-error.*
 /ios
 /android
 
-# generated files
-/package-lock.json
-/package.json
-
 .env
 .env.example
 .venv/
